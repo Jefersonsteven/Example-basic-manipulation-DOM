@@ -6,5 +6,9 @@ function print () {
     output.textContent = entry.value;
 }
 
+button.addEventListener('click', print);
 
 
+function print(event) {
+    event.preventDefault();
+}

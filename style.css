@@ -17,3 +17,8 @@ body .title {
     font-weight: 800;
     color: brown;
 }
+
+body form {
+    display: grid;
+    gap: 20px;
+}
